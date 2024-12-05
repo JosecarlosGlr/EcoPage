@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box; margin: 0%;
+}
+header{
+    font-family:"Lobster", serif;
+    height: 300px; width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/24/23/33/field-3629120_1280.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#tituloscabecera{
+    text-align: center;
+}
+h1{
+    color: greenyellow;
+}
+h2{
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+nav a{
+    margin: 0px;
+    font-size: 20px;
+    padding: 20px;
+    width: 33%;
+    text-align: center;
+}
+a:hover{
+    color: yellow;
+    font-weight: bold;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1308780419/es/vector/marca-de-vectores-de-ecolog%C3%ADa-de-hojas-y-tierra.jpg?s=612x612&w=0&k=20&c=TBcJKB0WA288qmav8bpKdGKLYESUcm6di-1YDyWoxqo=);
+}
+.bordeverde{
+    border: 3px solid green;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+img{
+    height: 100%;
+    float: right;
+    margin-left: 10px;
+}
+#cuerpo{
+    height: 500px;
+}
+#h22{
+color: greenyellow;
+font-style: italic;
+padding: 10px;
+font-size: 30px;
+}
+article{
+height: 50%;
+padding: 20px;
+}
+
+footer{
+    height: 200px;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 50px;
+    margin-top: 100px;
+}
+div p{
+    padding: 5px;
+}
