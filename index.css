@@ -33,8 +33,9 @@ nav a{
     text-align: center;
 }
 a:hover{
-    color: yellow;
+    font-style: italic;
     font-weight: bold;
+    color: yellow;
 }
 a:link{
     text-decoration: none;
